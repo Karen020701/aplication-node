@@ -1,0 +1,12 @@
+{
+  "name": "hello-word",
+  "version": "1.0.0",
+  "description": "Code simple",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
