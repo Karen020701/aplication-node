@@ -24,3 +24,5 @@ In the browser enter http://localhost:3000 and the message “Hello World node l
 **Deployment on Railway**  
 This project was deployed in Railway, the connection of the Railway account and access to the repository in Github was done.   
 Once deployed I generate the link: https://aplication-node-production.up.railway.app/
+
+![image](https://github.com/user-attachments/assets/081acf7e-50a8-4828-bb03-c4c8833ebf3c)
