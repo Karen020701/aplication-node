@@ -1,28 +1,56 @@
-**Hello World” project in Node.js language**  
-This is a basic project of a “Hello World” in Node.js language, we are going to use Docker to create a container of the program and Railway is used to deploy the project in the cloud.  
+# Hello World Project in Node.js Language
 
-It is required to verify the installation of the Node.js extension on the computer, this is done by accessing to the computer and running the command node --version otherwise if you don't have it go to the page https://nodejs.org/ and download it.  
+This is a basic "Hello World" project in the Node.js programming language. We will use Docker to create a container for the program, and Railway to deploy the project in the cloud.
 
-**Clone the project**  
+## Prerequisites
 
-Locate in a folder of preference to be able to clone the project with the following command:  
-https://github.com/Karen020701/aplication-node.git  
-To run the project locally, navigate to the project folder and run the command:  
-npm start  
+It is required to verify the installation of Node.js on your computer. To check, open a terminal and run:
 
-In the browser enter http://localhost:3000 and the message “Hello World node language” will be displayed.  
+```bash
+node --version
+```
 
-**Running with Docker**  
-An image is built in Docker. Once inside the directory to download the created image run the command:  
-docker pull karenchicaiza/aplicationode  
+If Node.js is not installed, download it from [https://nodejs.org/](https://nodejs.org/).
 
-To run the container the command is used:  
-docker run -p 3000:3000 karenchicaiza/aplicationode  
+## Clone the Project
 
-In the browser enter http://localhost:3000 and the message “Hello World node language” will be displayed.  
+1. Locate a folder of your choice and clone the project with the following command:
 
-**Deployment on Railway**  
-This project was deployed in Railway, the connection of the Railway account and access to the repository in Github was done.   
-Once deployed I generate the link: https://aplication-node-production.up.railway.app/
+    ```bash
+    git clone https://github.com/Karen020701/aplication-node.git
+    ```
+
+2. To run the project locally, navigate to the project folder and execute:
+
+    ```bash
+    npm start
+    ```
+
+3. Then, in your browser, go to [http://localhost:3000](http://localhost:3000). You should see the message: **"Hello World node language"**.
+
+## Running with Docker
+
+To run this project in a Docker container:
+
+1. First, pull the Docker image. In the project directory, download the image with the command:
+
+    ```bash
+    docker pull karenchicaiza/aplicationode
+    ```
+
+2. To start the container, use the command:
+
+    ```bash
+    docker run -p 3000:3000 karenchicaiza/aplicationode
+    ```
+
+3. In your browser, go to [http://localhost:3000](http://localhost:3000) and you will see the message: **"Hello World node language"**.
+
+## Deployment on Railway
+
+This project has been deployed on Railway. The Railway account was connected, and access to the GitHub repository was configured. Once deployed, the following link was generated:
+
+[https://aplication-node-production.up.railway.app/](https://aplication-node-production.up.railway.app/)
+
 
 ![image](https://github.com/user-attachments/assets/081acf7e-50a8-4828-bb03-c4c8833ebf3c)
